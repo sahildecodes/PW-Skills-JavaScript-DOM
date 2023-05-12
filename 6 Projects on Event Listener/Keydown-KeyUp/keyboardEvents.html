@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key Board Events</title>
+    <style>
+    div#form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: aquamarine;
+        height: 500px;
+        width: 300px;
+    }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <h1>Keyboard Event</h1>
+        <p>On Key Down</p>
+        <input type="text" onkeydown="alert(this.value);">
+        <p>On Key Up</p>
+        <input type="text" onkeyup="alert(this.value);">
+        <p>On Key press</p>
+        <input type="text" onkeypress="alert(this.value);">
+    </div>
+
+    <script>
+
+    </script>
+</body>
+</html>

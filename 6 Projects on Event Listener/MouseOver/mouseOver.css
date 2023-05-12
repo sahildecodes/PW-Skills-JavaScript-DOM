@@ -1,0 +1,71 @@
+/* Reseting the Default Values */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button#messageBtn{
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient(100% 100% at 100% 0, #f2a944 0, #f34c4c 100%);
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgba(146, 97, 49, 0.4) 0 2px 4px 0 2px 4px,rgba(146, 97, 49, 0.4) 0 2px 4px 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+  }
+  
+  button#messageBtn:focus {
+    box-shadow: #e0623c 0 0 0 1.5px inset, rgba(146, 97, 49, 0.4) 0 2px 4px 0 2px 4px, rgba(141, 115, 51, 0.2) 0 7px 13px -3px, #e0623c 0 -3px 0 inset;
+  }
+  
+  button#messageBtn:hover {
+    box-shadow: rgba(146, 97, 49, 0.4) 0 2px 4px 0 4px 8px, rgba(141, 115, 51, 0.2) 0 7px 13px -3px, #e0623c 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  button#messageBtn:active {
+    box-shadow: #e0623c 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+  div#box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    padding: 20px;
+    border-radius: 5px;
+}
